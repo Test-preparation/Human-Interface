@@ -918,7 +918,7 @@ flowchart LR
 </div>
 <div id="progress"></div>
 <script>
-if(window.mermaid){mermaid.initialize({startOnLoad:true,theme:'neutral',flowchart:{htmlLabels:true},securityLevel:'loose'});}
+if(window.mermaid){mermaid.initialize({startOnLoad:true,theme:'neutral',flowchart:{htmlLabels:true,useMaxWidth:false},stateDiagram:{useMaxWidth:false},themeVariables:{fontSize:'18px'},securityLevel:'loose'});}
 document.addEventListener('DOMContentLoaded',function(){
   var content=document.getElementById('content'),toc=document.getElementById('tocList'),sidebar=document.getElementById('sidebar');
   var headings=[].slice.call(content.querySelectorAll('h1.chapter[id],h2[id]'));
